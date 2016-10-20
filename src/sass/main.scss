@@ -1,0 +1,70 @@
+* {
+	box-sizing: border-box;
+}
+.page{
+	width:100%;
+	margin: auto;
+	
+}
+.box{
+	width:300px;
+	display: inline-block;
+	font-size: 13px;
+	text-align:center;
+	margin-bottom:15px;
+}
+.style{
+	width:250px;
+}
+.name{
+	font-weight: bolder;
+	font-size: 16px;
+	color:#3a3533;
+	margin-bottom: 15px;
+    margin-top: 10px;
+}
+.decoration{
+	padding-bottom: 4px;
+	border-bottom:1px solid #24a059;
+}
+.email{
+	margin-bottom: 20px;
+	color:#d9d7d6;
+	font-family: sans-serif;
+}
+.streetName{
+	font-family: Raleway;
+	color:#b8b8b8;
+}
+.location{
+	color:#b8b8b8;
+	font-family: Raleway;
+	margin-bottom: 4px;
+	margin-top:3px;
+}
+.city{
+	display: inline-block;
+	text-transform: capitalize;
+	margin-right: 5px;
+}
+.state{
+	display: inline-block;
+	text-transform: capitalize;
+	margin-right: 5px;
+}
+.zip{
+	display: inline-block;
+}
+.cell{
+	font-family: Raleway;
+	color:#b8b8b8;
+}
+.social{
+	margin-top:18px;
+	filter: blur(3px);
+	font-family: Raleway;
+}
+.social:hover{
+	color:#74bc74;
+	filter:none;
+}
